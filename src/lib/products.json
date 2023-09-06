@@ -1,0 +1,89 @@
+{
+    "sheets": [
+        {
+            "name": "products",
+            "description": "The product data for the Cream Cartel online catalogue",
+            "displayColumn": "id",
+            "guid": "5ba26c59-cd5c-4b2e-bc90-49d1fff4324e",
+            "columns": [
+                {
+                    "typeStr": "text",
+                    "guid": "56fba460-e125-4e28-aac2-41fab11d45a3",
+                    "name": "product_name",
+                    "description": "The product name",
+                    "defaultValue": "",
+                    "iconName": "newText",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "defaultValue": "text"
+                    }
+                },
+                {
+                    "typeStr": "text",
+                    "guid": "32966ea1-2f10-453d-ad8b-dbdd134305b5",
+                    "name": "product_description",
+                    "description": "A short description of the product",
+                    "defaultValue": "",
+                    "iconName": "newText",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "defaultValue": "text"
+                    }
+                },
+                {
+                    "typeStr": "text",
+                    "guid": "1f61ed66-d57e-4493-8d74-813742523f3e",
+                    "name": "product_image",
+                    "description": "Enter the filename of the product (inlduing file type)",
+                    "defaultValue": "chargers.webp",
+                    "iconName": "newText",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "defaultValue": "text"
+                    }
+                }
+            ],
+            "lines": [
+                {
+                    "guid": "f7509be3-5c72-45de-a2ec-1d5522040f27",
+                    "id": "0",
+                    "product_name": "QuickWhip 10pk",
+                    "product_description": "A 10 pack of cream chargers.",
+                    "product_image": "CRC_favicon.png"
+                },
+                {
+                    "guid": "d9dbb74d-a339-415e-bbe8-6625b81e829b",
+                    "id": "1",
+                    "product_name": "QuickWhip 20pk",
+                    "product_description": "A 20 pack of cream chargers.",
+                    "product_image": "CRC_favicon.png"
+                },
+                {
+                    "guid": "7499edc8-2d99-48c6-90e2-bac7bb656a06",
+                    "id": "2",
+                    "product_name": "QuickWhip 30pk",
+                    "product_description": "A 30 pack of cream chargers.",
+                    "product_image": "CRC_favicon.png"
+                }
+            ],
+            "hidden": false,
+            "isProps": false,
+            "configurable": {
+                "name": "text",
+                "description": "text",
+                "displayColumn": "columnSelect@name",
+                "columnSelect@name@displayColumn": {
+                    "allowedTypes": [
+                        "int",
+                        "float",
+                        "text",
+                        "longtext"
+                    ]
+                }
+            }
+        }
+    ]
+}

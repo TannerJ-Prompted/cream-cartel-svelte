@@ -1,0 +1,2 @@
+<h1>Product Safety Policy</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt minus deserunt quasi tenetur itaque dolorum accusamus expedita, molestias mollitia exercitationem ab amet ducimus eius eaque, ipsa omnis cum hic.</p>

@@ -1,0 +1,157 @@
+:root {
+    --CC-dark: #1a1a1a;
+    --CC-mid: #888888;
+    --CC-light: #cccccc;
+    --CC-white: #ffffff;
+    --CC-gold: #f8b841; 
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--CC-mid);
+}
+
+body {
+    margin: 1em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+div {
+    font-size: 14px;
+    padding: 0.2em;
+    border-radius: 0.8em;
+    color: black;
+}
+
+a {
+    border-radius: 0.8em;
+    padding: 0.8em;
+    color: var(--CC-white);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: var(--CC-gold)
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: var(--CC-white);
+    letter-spacing: 0.03em;
+}
+
+h2 {
+    font-size: 4em;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+h3 {
+    color: var(--CC-light);
+    font-size: 2em;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+p {
+    font-weight: 400;
+}
+
+.pirata {
+    font-family: 'Pirata One', 'Poppins', sans-serif;
+    font-size: 2em;
+    font-style: italic;
+}
+
+.header, .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--CC-dark);
+    padding: 0.2em 2em;
+}
+
+.header {
+    position: sticky;
+    top: 1em;
+}
+
+.footer {
+    width: calc(100% - 2em);
+    position: fixed;
+    bottom: 1em;
+}
+
+.navBar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2em;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.content {
+    width: 100%;
+    max-width: 1140px;
+}
+
+.darkButton {
+    background-color: var(--CC-dark);
+    color: var(--CC-light);
+    min-width: 10em;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.darkButton:hover {
+    background-color: var(--CC-gold);
+    color: var(--CC-dark);
+}
+
+.downloadButton {
+    background-color: var(--CC-gold);
+    color: var(--CC-dark);
+    min-width: 10em;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.3em;
+    overflow: hidden;
+    position: relative;
+}
+
+.downloadButton::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(
+        120deg,
+        rgba(255,255,255, 0) 30%,
+        rgb(255, 255, 255),
+        rgba(255,255,255, 0) 70%
+    );
+    top: 0;
+    left: -100px;
+    animation: shine 1s 3 linear;
+    animation-delay: 2s;
+}
+
+@keyframes shine {
+    0% {left: -100px}
+    20% {left: 100%}
+    100% {left: 100%}
+}
