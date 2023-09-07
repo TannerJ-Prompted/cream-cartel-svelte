@@ -38,7 +38,7 @@
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: auto;
         gap: 2em;
-        padding: 2rem;
+        padding: 10em 2em;;
     }
 
     .card {
@@ -48,7 +48,7 @@
         align-items: flex-start;
         background-color: var(--CC-light);
         border-radius: 1rem;
-        padding: 2rem;
+        padding: 1.3rem;
     }
 
     .card img {
@@ -63,6 +63,12 @@
         font-weight: 800;
         color: var(--CC-dark);
         text-align: left;
+        margin-bottom: 0em;;
+    }
+
+    .card p {
+        color: var(--CC-dark);
+        font-weight: 600;
     }
 
 </style>

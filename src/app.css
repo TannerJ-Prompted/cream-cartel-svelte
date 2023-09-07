@@ -1,9 +1,9 @@
 :root {
     --CC-dark: #1a1a1a;
-    --CC-mid: #888888;
+    --CC-mid: #686868;
     --CC-light: #cccccc;
     --CC-white: #ffffff;
-    --CC-gold: #f8b841; 
+    --CC-gold: #ecb653; 
 }
 
 html {
@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    margin: 1em;
+    margin: 0em;
 }
 
 * {
@@ -63,6 +63,10 @@ p {
     font-weight: 400;
 }
 
+.gold {
+    color: var(--CC-gold)
+}
+
 .pirata {
     font-family: 'Pirata One', 'Poppins', sans-serif;
     font-size: 2em;
@@ -79,13 +83,26 @@ p {
 
 .header {
     position: sticky;
+    width: calc(100% - 2em);
     top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header a {
+    padding: 0.3em;
 }
 
 .footer {
-    width: calc(100% - 2em);
+    width: 100%;
     position: fixed;
-    bottom: 1em;
+    bottom: 0em;
+    border-radius: 0em;
+}
+
+.footer a, .footer p {
+    padding: 0em;
+    margin: 0em;
 }
 
 .navBar {
@@ -122,18 +139,22 @@ p {
     color: var(--CC-dark);
 }
 
-.downloadButton {
+a.downloadButton {
     background-color: var(--CC-gold);
     color: var(--CC-dark);
     min-width: 10em;
     text-align: center;
     font-weight: 600;
     font-size: 1.3em;
+    padding: 0.5em 2em;
+}
+
+.shine {
     overflow: hidden;
     position: relative;
 }
 
-.downloadButton::before {
+.shine::before {
     content: '';
     position: absolute;
     width: 100px;

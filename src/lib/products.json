@@ -67,6 +67,20 @@
                     "product_name": "QuickWhip 30pk",
                     "product_description": "A 30 pack of cream chargers.",
                     "product_image": "CRC_favicon.png"
+                },
+                {
+                    "guid": "85518ce9-3e97-4561-ae26-dcfa669f346f",
+                    "id": "3",
+                    "product_name": "QuickWhip 40pk",
+                    "product_description": "A 40 pack of cream chargers.",
+                    "product_image": "CRC_favicon.png"
+                },
+                {
+                    "guid": "4da5b8cb-17bd-474c-8786-725df68a7a7f",
+                    "id": "4",
+                    "product_name": "QuickWhip 50pk",
+                    "product_description": "A 50 pack of cream chargers.",
+                    "product_image": "CRC_favicon.png"
                 }
             ],
             "hidden": false,

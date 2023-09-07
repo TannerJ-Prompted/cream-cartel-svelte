@@ -8,6 +8,8 @@
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-template-rows: 30em auto;
+        gap: 3em;
+        padding-bottom: 10em;
     }
 
     .lastSupperImage {
@@ -16,12 +18,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
 
 </style>
 
 <div class="aboutGrid">
-    <h3 class="lastSupperImage">Last supper image</h3>
+    <img class="lastSupperImage" src="/lastSupper.webp" alt="Cream, Cartel Characters at the last supper">
         <div class="aboutCopy">
             <h1>About the Cream Cartel</h1>
             <h2>We deliver all along the east coast of Australia!</h2>

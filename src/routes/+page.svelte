@@ -35,6 +35,22 @@
         gap: 2em;
     }
 
+    .playingCard {
+        width: auto;
+        height: 25em;
+        position: absolute;
+        box-shadow: 0 0 1em 0.05em var(--CC-dark);
+        border-radius: 1em;
+    }
+
+    .cardFront {
+        transform: rotate(10deg) translate(3em);
+    } 
+
+    .cardBack {
+        transform: rotate(-5deg);
+    }
+
 </style>
 
 <div class="homeGrid">
@@ -48,7 +64,7 @@
         </div>
     </div>
     <div class="cardsColumn">
-        <p>Card</p>
-        <p>Card</p>
+        <img class="playingCard cardBack" src="/cardBack.webp" alt="Playing Card Back Graphic">
+        <img class="playingCard cardFront" src="/cardFront.webp" alt="Playing Card Front Graphic">
     </div>
 </div>

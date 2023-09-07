@@ -1,11 +1,11 @@
 <div class="header">
     <div class="navBar">
-        <a class="pirata" href="/">Cream Cartel</a>
+        <a class="pirata shine gold" href="/">Cream Cartel</a>
         <a href="/catalogue">Catalogue</a>
         <a href="/about">About</a>
         <a href="#">Contact</a>
     </div>
-    <a href="#" class="downloadButton">Download our app!</a>
+    <a href="#" class="downloadButton shine">Download our app!</a>
 </div>
 
 <div class="contentContainer">
