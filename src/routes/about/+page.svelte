@@ -20,6 +20,17 @@
         align-items: center;
         width: 100%;
     }
+    
+    .catalogueDetailsSelect {
+        background-color: var(--CC-light);
+        border-radius: 0.5em;
+        padding: 0.5em 1em;
+        border: none;
+        color: var(--CC-dark);
+        font-weight: 600;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+    }
 
 </style>
 
@@ -32,6 +43,13 @@
         </div>
         <div class="tradingHours">
             <h3>Trading Hours</h3>
+            <select id="category" class="catalogueDetailsSelect" on:change={(e) => updateDetails(e)}> 
+                <option value="" disabled selected >Select your region</option>
+                <option value="charger">Chargers</option>
+                <option value="bundle">Bundles</option>
+                <option value="flavoured">Flavoured</option>
+                <option value="accessory">Accessories</option>
+            </select>
             <p>Monday - Friday: 9am - 5pm</p>
             <p>Saturday: 10am - 4pm</p>
             <p>Sunday: Closed</p>

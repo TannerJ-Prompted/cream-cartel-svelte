@@ -44,6 +44,143 @@
                         "description": "text",
                         "defaultValue": "text"
                     }
+                },
+                {
+                    "typeStr": "multiple",
+                    "guid": "49083e0f-dd78-4d91-bceb-0a1c72298aab",
+                    "name": "region",
+                    "description": "Available regions",
+                    "options": "newcastle, sydney, canberra, portStephens",
+                    "defaultValue": "",
+                    "iconName": "newMulti",
+                    "displayType": "vertical",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "defaultValue": "text",
+                        "options": "text",
+                        "displayType": "enum",
+                        "enum@displayType": {
+                            "options": [
+                                "vertical",
+                                "horizontal"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "typeStr": "multiple",
+                    "guid": "8ebfd96a-1544-4968-a9c2-e020e1273e0e",
+                    "name": "category",
+                    "description": "product category",
+                    "options": "bundle, charger, flavoured, accessory",
+                    "defaultValue": "",
+                    "iconName": "newMulti",
+                    "displayType": "vertical",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "defaultValue": "text",
+                        "options": "text",
+                        "displayType": "enum",
+                        "enum@displayType": {
+                            "options": [
+                                "vertical",
+                                "horizontal"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "typeStr": "int",
+                    "guid": "64b51b97-b4aa-4488-b465-f2f8ae069acd",
+                    "description": "newcastle price",
+                    "name": "newcastle_price",
+                    "min": -10000,
+                    "max": 100000,
+                    "defaultValue": 0,
+                    "iconName": "newInt",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "min": "int",
+                        "max": "int",
+                        "defaultValue": "int"
+                    }
+                },
+                {
+                    "typeStr": "int",
+                    "guid": "c299688d-99f3-4b08-8deb-dadaa5f859e6",
+                    "description": "sydney price",
+                    "name": "sydney_price",
+                    "min": -10000,
+                    "max": 100000,
+                    "defaultValue": 0,
+                    "iconName": "newInt",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "min": "int",
+                        "max": "int",
+                        "defaultValue": "int"
+                    }
+                },
+                {
+                    "typeStr": "int",
+                    "guid": "2fa46c1f-0816-454d-a3f4-e7b8cd80f910",
+                    "description": "canberra price",
+                    "name": "canberra_price",
+                    "min": -10000,
+                    "max": 100000,
+                    "defaultValue": 0,
+                    "iconName": "newInt",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "min": "int",
+                        "max": "int",
+                        "defaultValue": "int"
+                    }
+                },
+                {
+                    "typeStr": "int",
+                    "guid": "bc200822-1a2a-4e30-986e-bb0f082470de",
+                    "description": "port stephens price",
+                    "name": "portStephens_price",
+                    "min": -10000,
+                    "max": 100000,
+                    "defaultValue": 0,
+                    "iconName": "newInt",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "min": "int",
+                        "max": "int",
+                        "defaultValue": "int"
+                    }
+                },
+                {
+                    "typeStr": "multiple",
+                    "guid": "f18b260f-b440-498e-8465-b6c99ad61211",
+                    "name": "branch",
+                    "description": "product branch availability",
+                    "options": "fiend, cosmic",
+                    "defaultValue": "",
+                    "iconName": "newMulti",
+                    "displayType": "vertical",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "defaultValue": "text",
+                        "options": "text",
+                        "displayType": "enum",
+                        "enum@displayType": {
+                            "options": [
+                                "vertical",
+                                "horizontal"
+                            ]
+                        }
+                    }
                 }
             ],
             "lines": [
@@ -52,35 +189,111 @@
                     "id": "0",
                     "product_name": "QuickWhip 10pk",
                     "product_description": "A 10 pack of cream chargers.",
-                    "product_image": "CRC_favicon.png"
+                    "product_image": "CRC_favicon.png",
+                    "region": [
+                        "newcastle"
+                    ],
+                    "category": [
+                        "bundle",
+                        "charger"
+                    ],
+                    "newcastle_price": 0,
+                    "sydney_price": 10,
+                    "canberra_price": 20,
+                    "portStephens_price": 30,
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
                 },
                 {
                     "guid": "d9dbb74d-a339-415e-bbe8-6625b81e829b",
                     "id": "1",
                     "product_name": "QuickWhip 20pk",
                     "product_description": "A 20 pack of cream chargers.",
-                    "product_image": "CRC_favicon.png"
+                    "product_image": "CRC_favicon.png",
+                    "region": [
+                        "newcastle",
+                        "sydney"
+                    ],
+                    "category": [
+                        "bundle",
+                        "charger"
+                    ],
+                    "newcastle_price": 10,
+                    "sydney_price": 0,
+                    "canberra_price": 0,
+                    "portStephens_price": 0,
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
                 },
                 {
                     "guid": "7499edc8-2d99-48c6-90e2-bac7bb656a06",
                     "id": "2",
                     "product_name": "QuickWhip 30pk",
                     "product_description": "A 30 pack of cream chargers.",
-                    "product_image": "CRC_favicon.png"
+                    "product_image": "CRC_favicon.png",
+                    "region": [
+                        "newcastle",
+                        "canberra"
+                    ],
+                    "category": [
+                        "bundle",
+                        "accessory"
+                    ],
+                    "newcastle_price": 10,
+                    "sydney_price": 0,
+                    "canberra_price": 0,
+                    "portStephens_price": 0,
+                    "branch": [
+                        "fiend"
+                    ]
                 },
                 {
                     "guid": "85518ce9-3e97-4561-ae26-dcfa669f346f",
                     "id": "3",
                     "product_name": "QuickWhip 40pk",
                     "product_description": "A 40 pack of cream chargers.",
-                    "product_image": "CRC_favicon.png"
+                    "product_image": "CRC_favicon.png",
+                    "region": [
+                        "newcastle"
+                    ],
+                    "category": [
+                        "bundle",
+                        "charger"
+                    ],
+                    "newcastle_price": 10,
+                    "sydney_price": 0,
+                    "canberra_price": 0,
+                    "portStephens_price": 0,
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
                 },
                 {
                     "guid": "4da5b8cb-17bd-474c-8786-725df68a7a7f",
                     "id": "4",
                     "product_name": "QuickWhip 50pk",
                     "product_description": "A 50 pack of cream chargers.",
-                    "product_image": "CRC_favicon.png"
+                    "product_image": "CRC_favicon.png",
+                    "region": [
+                        "newcastle"
+                    ],
+                    "category": [
+                        "bundle",
+                        "accessory"
+                    ],
+                    "newcastle_price": 10,
+                    "sydney_price": 0,
+                    "canberra_price": 0,
+                    "portStephens_price": 0,
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
                 }
             ],
             "hidden": false,
@@ -98,6 +311,61 @@
                     ]
                 }
             }
+        },
+        {
+            "name": "prices",
+            "description": "props@5ba26c59-cd5c-4b2e-bc90-49d1fff4324e",
+            "displayColumn": "id",
+            "guid": "ad52fa45-ab7e-4473-89ae-80ed43e008c5",
+            "columns": [
+                {
+                    "typeStr": "text",
+                    "guid": "b10588a3-35b7-486b-82c4-75641a3dd7bd",
+                    "name": "region",
+                    "description": "price region",
+                    "defaultValue": "",
+                    "iconName": "newText",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "defaultValue": "text"
+                    }
+                },
+                {
+                    "typeStr": "int",
+                    "guid": "f98dbce2-89d9-401c-8d64-1f6d0a16664a",
+                    "description": "product price",
+                    "name": "price",
+                    "min": -10000,
+                    "max": 100000,
+                    "defaultValue": 0,
+                    "iconName": "newInt",
+                    "configurable": {
+                        "name": "text",
+                        "description": "text",
+                        "min": "int",
+                        "max": "int",
+                        "defaultValue": "int"
+                    }
+                }
+            ],
+            "lines": [],
+            "hidden": true,
+            "isProps": true,
+            "parentSheetGUID": "5ba26c59-cd5c-4b2e-bc90-49d1fff4324e",
+            "columnGUID": "d7f8ace5-3a97-4755-a241-c8a8a3c545a3"
+        },
+        {
+            "name": "prices",
+            "description": "props@5ba26c59-cd5c-4b2e-bc90-49d1fff4324e",
+            "displayColumn": "id",
+            "guid": "6176c569-bf6c-4e48-afb5-756ca75137e5",
+            "columns": [],
+            "lines": [],
+            "hidden": true,
+            "isProps": true,
+            "parentSheetGUID": "5ba26c59-cd5c-4b2e-bc90-49d1fff4324e",
+            "columnGUID": "23323b9f-3c26-427a-b8c9-b153288b92b4"
         }
     ]
 }

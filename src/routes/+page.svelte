@@ -1,6 +1,8 @@
 <script>
     /** @type {import('./$types').PageData} */
     export let data;
+    import {iosAppLink, androidAppLink} from '$lib/variables.js';
+
 </script>
 
 <style>
@@ -59,8 +61,8 @@
         <h2>Kitchen supplies delivered fast!</h2>
         <h3>Download our app today to get whipping!</h3>
         <div class="buttons">
-            <a href="#" class="darkButton">Android</a>
-            <a href="#" class="darkButton">iOS</a>
+            <a href="{androidAppLink}" class="darkButton">Android</a>
+            <a href="{iosAppLink}" class="darkButton">iOS</a>
         </div>
     </div>
     <div class="cardsColumn">

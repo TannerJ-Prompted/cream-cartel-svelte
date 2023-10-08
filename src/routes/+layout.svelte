@@ -1,3 +1,7 @@
+<script>
+    import {iosAppLink, androidAppLink} from '$lib/variables.js';
+</script>
+
 <div class="header">
     <div class="navBar">
         <a class="pirata shine gold" href="/">Cream Cartel</a>
@@ -5,7 +9,10 @@
         <a href="/about">About</a>
         <a href="#">Contact</a>
     </div>
-    <a href="#" class="downloadButton shine">Download our app!</a>
+    <div>
+        <a href="{iosAppLink}" class="downloadButton">IOS</a>
+        <a href="{androidAppLink}" class="downloadButton">ANDROID</a>
+    </div>
 </div>
 
 <div class="contentContainer">
