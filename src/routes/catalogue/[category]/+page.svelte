@@ -53,6 +53,7 @@
         background-color: var(--CC-light);
         border-radius: 1rem;
         padding: 1.3rem;
+        gap: 0.5em;
     }
 
     .card img {
@@ -62,17 +63,22 @@
         border-radius: 0.8em;
     }
 
+    .productImage {
+        border-bottom: 0.3em solid var(--CC-dark);
+    }
+
     .card h3 {
         font-size: 1.5rem;
         font-weight: 800;
         color: var(--CC-dark);
         text-align: left;
-        margin-bottom: 0em;;
+        margin: 0em;
     }
 
     .card p {
         color: var(--CC-dark);
         font-weight: 600;
+        margin: 0em;
     }
 
     .card ul {
@@ -85,7 +91,6 @@
         flex-wrap: wrap;
         align-items: center;
         gap: 0.5em;
-        margin-bottom: 0.5em;
     }
 
     .card li.location {
@@ -151,7 +156,7 @@
     {#each products.sheets[0].lines as item}
         {#if item.category.includes($page.params.category)}
             <div class="card shadow">
-                <img src={item.product_image} alt="{item.product_name}">
+                <img class="productImage" src={item.product_image} alt="{item.product_name}">
                 <h3>{item.product_name}</h3>
                 <p>{item.product_description}</p>
                 <ul>
