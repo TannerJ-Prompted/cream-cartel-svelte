@@ -5,6 +5,7 @@
 
     
     import products from '$lib/products.json';
+    import { locations } from '$lib/variables.js';
 	import { onMount } from 'svelte';
 
     let details = true;
@@ -12,6 +13,7 @@
     let branch = "";
     let category = "";
     let itemPrice = "";
+    let itemImageString = "";
     
     function updateDetails(e) {
         if (e.target.id == "region") {
@@ -19,6 +21,8 @@
             itemPrice = `${e.target.value}_price`;
         } else if (e.target.id == "branch") {
             branch = e.target.value;
+            itemImageString = `${e.target.value}_image`
+            console.log(itemImageString)
         } else if (e.target.id == "category") {
             category = e.target.value;
         }
@@ -29,13 +33,14 @@
     }
 
     onMount(() => {
-        console.log(products);
+        console.log(products, locations);
     });
 
 </script>
 
 <style>
     .catalogueGrid{
+        margin-top: 10em;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
@@ -96,56 +101,49 @@
     }
 
     .catalogueDetailsBar {
-        width: 100%;
-        background-color: var(--CC-dark);
         padding: 0.75em 2em;
         position: sticky;
         top: 6em;
-        display:flex;
-        justify-content: flex-start;
+        display: flex;
+        justify-content: center;
         align-items: center;
         flex-direction: row;
         gap: 2em;
     }
 
-    .catalogueDetailsSelect {
-        background-color: var(--CC-light);
+    .catalogueCategory {
+        background-color: var(--CC-gold);
         border-radius: 0.5em;
         padding: 0.5em 1em;
         border: none;
         color: var(--CC-dark);
         font-weight: 600;
-        font-size: 0.8rem;
+        font-size: 1.2em;
         text-transform: uppercase;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .catalogueCategory:hover {
+        background-color: var(--CC-dark);
+        color: var(--CC-light)
+    }
+
+    .active {
+        background-color: var(--CC-dark);
+        color: var(--CC-light);
     }
 
 </style>
 
 <div class="catalogueDetailsBar">
-    <select id="region" class="catalogueDetailsSelect" on:change={(e) => updateDetails(e)}>
-        <option value="" disabled selected >Select your region</option>
-        <option value="sydney">Sydney</option>
-        <option value="newcastle">Newcastle</option>
-        <option value="canberra">Canberra</option>
-        <option value="canberra">Port Stephens</option>
-    </select>
-    <select id="branch" class="catalogueDetailsSelect" on:change={(e) => updateDetails(e)}>
-        <option value="" disabled selected >Select your branch</option>
-        <option value="fiend">Cream Fiend</option>
-        <option value="cosmic">Cosmic Cream</option>
-    </select>
-    <select id="category" class="catalogueDetailsSelect" on:change={(e) => updateDetails(e)}> 
-        <option value="" disabled selected >Select your category</option>
-        <option value="charger">Chargers</option>
-        <option value="bundle">Bundles</option>
-        <option value="flavoured">Flavoured</option>
-        <option value="accessory">Accessories</option>
-    </select>
+    <a class="catalogueCategory" href="/catalogue/chargers">Chargers</a>
+    <a class="catalogueCategory" href="/catalogue/flavoured">Flavoured</a>
+    <a class="catalogueCategory" href="/catalogue/bundles">Bundles</a>
+    <a class="catalogueCategory" href="/catalogue/accessories">Accessories</a>
 </div>
-{#if details}
 <div class="catalogueGrid">
     <div class="heroColumn">
-        <h2>Select your region, branch, and category</h2>
+        <h2>See what we have on offer!</h2>
         <h3>Or browse our catalogue through our app!</h3>
         <div class="buttons">
             <a href="#" class="darkButton">Android</a>
@@ -155,17 +153,3 @@
     <div class="cardsColumn">
     </div>
 </div>
-{:else}
-<div class="productGrid">
-    {#each products.sheets[0].lines as item}
-        {#if item.region.includes(region) && item.branch.includes(branch) && item.category.includes(category)}
-        <div class="card">
-            <img src={item.product_image} alt="{item.product_name}">
-            <h3>{item.product_name}</h3>
-            <p>{item.product_description}</p>
-            <p>{item[itemPrice]}</p>
-        </div>
-        {/if}
-    {/each}
-</div>
-{/if}

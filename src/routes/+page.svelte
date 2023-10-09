@@ -18,7 +18,7 @@
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-template-rows: 1fr;
-        padding-top: 8em;
+        margin-top: 10em;
     }
 
     .heroColumn{

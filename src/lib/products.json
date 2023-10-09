@@ -37,7 +37,7 @@
                     "guid": "1f61ed66-d57e-4493-8d74-813742523f3e",
                     "name": "product_image",
                     "description": "Enter the filename of the product (inlduing file type)",
-                    "defaultValue": "chargers.webp",
+                    "defaultValue": "/productImages/fiend/chargers1.webp",
                     "iconName": "newText",
                     "configurable": {
                         "name": "text",
@@ -73,7 +73,7 @@
                     "guid": "8ebfd96a-1544-4968-a9c2-e020e1273e0e",
                     "name": "category",
                     "description": "product category",
-                    "options": "bundle, charger, flavoured, accessory",
+                    "options": "bundles, chargers, flavoured, accessories",
                     "defaultValue": "",
                     "iconName": "newMulti",
                     "displayType": "vertical",
@@ -89,74 +89,6 @@
                                 "horizontal"
                             ]
                         }
-                    }
-                },
-                {
-                    "typeStr": "int",
-                    "guid": "64b51b97-b4aa-4488-b465-f2f8ae069acd",
-                    "description": "newcastle price",
-                    "name": "newcastle_price",
-                    "min": -10000,
-                    "max": 100000,
-                    "defaultValue": 0,
-                    "iconName": "newInt",
-                    "configurable": {
-                        "name": "text",
-                        "description": "text",
-                        "min": "int",
-                        "max": "int",
-                        "defaultValue": "int"
-                    }
-                },
-                {
-                    "typeStr": "int",
-                    "guid": "c299688d-99f3-4b08-8deb-dadaa5f859e6",
-                    "description": "sydney price",
-                    "name": "sydney_price",
-                    "min": -10000,
-                    "max": 100000,
-                    "defaultValue": 0,
-                    "iconName": "newInt",
-                    "configurable": {
-                        "name": "text",
-                        "description": "text",
-                        "min": "int",
-                        "max": "int",
-                        "defaultValue": "int"
-                    }
-                },
-                {
-                    "typeStr": "int",
-                    "guid": "2fa46c1f-0816-454d-a3f4-e7b8cd80f910",
-                    "description": "canberra price",
-                    "name": "canberra_price",
-                    "min": -10000,
-                    "max": 100000,
-                    "defaultValue": 0,
-                    "iconName": "newInt",
-                    "configurable": {
-                        "name": "text",
-                        "description": "text",
-                        "min": "int",
-                        "max": "int",
-                        "defaultValue": "int"
-                    }
-                },
-                {
-                    "typeStr": "int",
-                    "guid": "bc200822-1a2a-4e30-986e-bb0f082470de",
-                    "description": "port stephens price",
-                    "name": "portStephens_price",
-                    "min": -10000,
-                    "max": 100000,
-                    "defaultValue": 0,
-                    "iconName": "newInt",
-                    "configurable": {
-                        "name": "text",
-                        "description": "text",
-                        "min": "int",
-                        "max": "int",
-                        "defaultValue": "int"
                     }
                 },
                 {
@@ -189,111 +121,89 @@
                     "id": "0",
                     "product_name": "QuickWhip 10pk",
                     "product_description": "A 10 pack of cream chargers.",
-                    "product_image": "CRC_favicon.png",
                     "region": [
                         "newcastle"
                     ],
                     "category": [
-                        "bundle",
-                        "charger"
+                        "chargers"
                     ],
-                    "newcastle_price": 0,
-                    "sydney_price": 10,
-                    "canberra_price": 20,
-                    "portStephens_price": 30,
                     "branch": [
                         "fiend",
                         "cosmic"
-                    ]
+                    ],
+                    "product_image": "/productImages/fiend/chargers1.webp"
                 },
                 {
                     "guid": "d9dbb74d-a339-415e-bbe8-6625b81e829b",
                     "id": "1",
                     "product_name": "QuickWhip 20pk",
                     "product_description": "A 20 pack of cream chargers.",
-                    "product_image": "CRC_favicon.png",
                     "region": [
                         "newcastle",
                         "sydney"
                     ],
                     "category": [
-                        "bundle",
-                        "charger"
+                        "bundles",
+                        "chargers"
                     ],
-                    "newcastle_price": 10,
-                    "sydney_price": 0,
-                    "canberra_price": 0,
-                    "portStephens_price": 0,
                     "branch": [
                         "fiend",
                         "cosmic"
-                    ]
+                    ],
+                    "product_image": "/productImages/fiend/chargers1.webp"
                 },
                 {
                     "guid": "7499edc8-2d99-48c6-90e2-bac7bb656a06",
                     "id": "2",
                     "product_name": "QuickWhip 30pk",
                     "product_description": "A 30 pack of cream chargers.",
-                    "product_image": "CRC_favicon.png",
                     "region": [
                         "newcastle",
                         "canberra"
                     ],
                     "category": [
-                        "bundle",
-                        "accessory"
+                        "chargers"
                     ],
-                    "newcastle_price": 10,
-                    "sydney_price": 0,
-                    "canberra_price": 0,
-                    "portStephens_price": 0,
                     "branch": [
                         "fiend"
-                    ]
+                    ],
+                    "product_image": "/productImages/fiend/chargers1.webp"
                 },
                 {
                     "guid": "85518ce9-3e97-4561-ae26-dcfa669f346f",
                     "id": "3",
                     "product_name": "QuickWhip 40pk",
                     "product_description": "A 40 pack of cream chargers.",
-                    "product_image": "CRC_favicon.png",
                     "region": [
                         "newcastle"
                     ],
                     "category": [
-                        "bundle",
-                        "charger"
+                        "chargers",
+                        "flavoured"
                     ],
-                    "newcastle_price": 10,
-                    "sydney_price": 0,
-                    "canberra_price": 0,
-                    "portStephens_price": 0,
                     "branch": [
                         "fiend",
                         "cosmic"
-                    ]
+                    ],
+                    "product_image": "/productImages/fiend/chargers1.webp"
                 },
                 {
                     "guid": "4da5b8cb-17bd-474c-8786-725df68a7a7f",
                     "id": "4",
                     "product_name": "QuickWhip 50pk",
                     "product_description": "A 50 pack of cream chargers.",
-                    "product_image": "CRC_favicon.png",
                     "region": [
                         "newcastle"
                     ],
                     "category": [
-                        "bundle",
-                        "accessory"
+                        "chargers",
+                        "accessories"
                     ],
-                    "newcastle_price": 10,
-                    "sydney_price": 0,
-                    "canberra_price": 0,
-                    "portStephens_price": 0,
                     "branch": [
                         "fiend",
                         "cosmic"
-                    ]
+                    ],
+                    "product_image": "/productImages/fiend/chargers1.webp"
                 }
             ],
             "hidden": false,

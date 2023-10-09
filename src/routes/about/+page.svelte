@@ -1,6 +1,14 @@
 <script>
     /** @type {import('./$types').PageData} */
     export let data;
+
+    import { locations } from '$lib/variables.js';
+
+    let region = "";
+
+    function updateDetails(e) {
+            region = locations.filter(location => location.value == e.target.value)[0];
+    };
 </script>
 
 <style>
@@ -22,13 +30,13 @@
     }
     
     .catalogueDetailsSelect {
-        background-color: var(--CC-light);
+        background-color: var(--CC-gold);
         border-radius: 0.5em;
         padding: 0.5em 1em;
         border: none;
         color: var(--CC-dark);
         font-weight: 600;
-        font-size: 0.8rem;
+        font-size: 1em;
         text-transform: uppercase;
     }
 
@@ -43,15 +51,16 @@
         </div>
         <div class="tradingHours">
             <h3>Trading Hours</h3>
-            <select id="category" class="catalogueDetailsSelect" on:change={(e) => updateDetails(e)}> 
+            <select id="region" class="catalogueDetailsSelect" on:change={(e) => updateDetails(e)}> 
                 <option value="" disabled selected >Select your region</option>
-                <option value="charger">Chargers</option>
-                <option value="bundle">Bundles</option>
-                <option value="flavoured">Flavoured</option>
-                <option value="accessory">Accessories</option>
+                {#each locations as { name, value }}
+                    <option value={value}>{name}</option>
+                {/each}
             </select>
-            <p>Monday - Friday: 9am - 5pm</p>
-            <p>Saturday: 10am - 4pm</p>
-            <p>Sunday: Closed</p>
+            {#if region != ""}
+                {#each region.tradingHours as { day, hours}}
+                    <p>{day}: {hours}</p>
+                {/each}
+            {/if}
         </div>
 </div>

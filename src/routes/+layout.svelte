@@ -2,7 +2,7 @@
     import {iosAppLink, androidAppLink} from '$lib/variables.js';
 </script>
 
-<div class="header">
+<div class="header shadow">
     <div class="navBar">
         <a class="pirata shine gold" href="/">Cream Cartel</a>
         <a href="/catalogue">Catalogue</a>
@@ -22,11 +22,12 @@
 </div>
 
 <div class="footer">
-    <p>Copyright 2023</p>
+    <p>All content and imagery on this site is subject to copyright</p>
     <div class="navBar">
         <a href="/documents/privacy-policy">Privacy Policy</a>
         <a href="/documents/terms-and-conditions">Terms & Conditions</a>
         <a href="/documents/returns-and-warranty">Returns & Warranty</a>
         <a href="/documents/product-safety">Product Safety</a>
+        <a href="/documents/cookie-policy">Cookie Policy</a>
     </div>
 </div>
