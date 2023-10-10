@@ -73,7 +73,7 @@
                     "guid": "8ebfd96a-1544-4968-a9c2-e020e1273e0e",
                     "name": "category",
                     "description": "product category",
-                    "options": "bundles, chargers, flavoured, accessories",
+                    "options": "bundles, chargers, flavoured, accessories, tanks",
                     "defaultValue": "",
                     "iconName": "newMulti",
                     "displayType": "vertical",
@@ -119,10 +119,279 @@
                 {
                     "guid": "f7509be3-5c72-45de-a2ec-1d5522040f27",
                     "id": "0",
-                    "product_name": "QuickWhip 10pk",
-                    "product_description": "A 10 pack of cream chargers.",
+                    "product_name": "Keen Fiend",
+                    "product_description": "60 chargers",
                     "region": [
-                        "newcastle"
+                        "newcastle",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "bundles"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ],
+                    "product_image": "keenFiend.webp"
+                },
+                {
+                    "guid": "9e714bc2-48cc-4e82-a974-69ad3dd518f6",
+                    "id": "1",
+                    "product_name": "Blissful Fiend",
+                    "product_description": "120 chargers",
+                    "product_image": "blissfulFiend.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "bundles"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "51645a54-bda1-436c-813e-ff0d6e37eb6a",
+                    "id": "2",
+                    "product_name": "Pink Fiend",
+                    "product_description": "100 strawberry flavoured SSES chargers",
+                    "product_image": "pinkFiendSSES.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "bundles",
+                        "flavoured"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "e5d72c41-6818-49c2-87b7-fabd8f52dc62",
+                    "id": "3",
+                    "product_name": "Fresh Pink Fiend",
+                    "product_description": "100 strawberry flavoured Fresh Whip chargers",
+                    "product_image": "pinkFiendFresh.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "bundles",
+                        "flavoured"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "bfa6c9ad-1f2c-496f-a589-63b4dddf8e30",
+                    "id": "4",
+                    "product_name": "Blue Fiend",
+                    "product_description": "100 blueberry flavoured SSES chargers",
+                    "product_image": "blueFiend.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "bundles",
+                        "flavoured"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "cbe3e6eb-d6fe-4fa6-92e9-46a6f76878d5",
+                    "id": "5",
+                    "product_name": "Green Fiend",
+                    "product_description": "100 mint flavoured SSES chargers",
+                    "product_image": "greenFiend.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "bundles"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "e3800727-e666-4ea6-8cc4-a415a31e4a0b",
+                    "id": "6",
+                    "product_name": "Orange Fiend",
+                    "product_description": "100 mango flavoured SSES chargers",
+                    "product_image": "orangeFiend.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "bundles"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "fb48c49e-0201-4a24-9968-7f61d3147123",
+                    "id": "7",
+                    "product_name": "Mix'n'Match",
+                    "product_description": "25 x 10pk Mix of Supremes or flavoured chargers",
+                    "product_image": "mixMatch.webp",
+                    "region": [
+                        "sydney"
+                    ],
+                    "category": [
+                        "bundles"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "7d03d135-8f96-402f-8f84-a019dc5b504e",
+                    "id": "8",
+                    "product_name": "Double Tank",
+                    "product_description": "2x 580g tanks",
+                    "product_image": "doubleTank.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney"
+                    ],
+                    "category": [
+                        "bundles",
+                        "tanks"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "a343a667-1f56-4952-a999-5ef748dec692",
+                    "id": "9",
+                    "product_name": "Quad Max Tanks",
+                    "product_description": "4x  1.45kg max tanks",
+                    "product_image": "quadMaxTank.webp",
+                    "region": [
+                        "sydney"
+                    ],
+                    "category": [
+                        "bundles",
+                        "tanks"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "d22148cf-0d81-4ff8-ba28-ce168f4268ab",
+                    "id": "10",
+                    "product_name": "Hex Tanks",
+                    "product_description": "6x 580g tanks",
+                    "product_image": "hexMaxTank.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney"
+                    ],
+                    "category": [
+                        "bundles",
+                        "tanks"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "2dd826fb-28b3-455e-8980-2f3571f17764",
+                    "id": "11",
+                    "product_name": "Dozen Tanks",
+                    "product_description": "12x  580g tanks",
+                    "product_image": "dozenMaxTank.webp",
+                    "region": [
+                        "sydney"
+                    ],
+                    "category": [
+                        "bundles",
+                        "tanks"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "a0d9c21a-eff4-4030-b925-cd411c055354",
+                    "id": "12",
+                    "product_name": "Double Max Tanks",
+                    "product_description": "2x  1.45kg max tanks",
+                    "product_image": "doubleMaxTank.webp",
+                    "region": [
+                        "sydney"
+                    ],
+                    "category": [
+                        "bundles",
+                        "tanks"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "3776c462-9aa9-44ca-bbbc-51e32aab7917",
+                    "id": "13",
+                    "product_name": "Quad Max Tanks",
+                    "product_description": "4x  1.45kg max tanks",
+                    "product_image": "quadMaxTank.webp",
+                    "region": [
+                        "sydney"
+                    ],
+                    "category": [
+                        "bundles",
+                        "tanks"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "6c897812-f599-4df9-aff2-861517716ed2",
+                    "id": "14",
+                    "product_name": "Double Lux Tanks",
+                    "product_description": "2x  2.2kg max tanks",
+                    "product_image": "doubleLuxTank.webp",
+                    "region": [
+                        "sydney"
+                    ],
+                    "category": [
+                        "bundles",
+                        "tanks"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "5428ab91-2cea-423a-8af0-ed725d2ce5cf",
+                    "id": "15",
+                    "product_name": "Quick Whip 10pk",
+                    "product_description": "10 Quick Whip chargers",
+                    "product_image": "quickWhip10.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
                     ],
                     "category": [
                         "chargers"
@@ -130,16 +399,852 @@
                     "branch": [
                         "fiend",
                         "cosmic"
-                    ],
-                    "product_image": "/productImages/fiend/chargers1.webp"
+                    ]
                 },
                 {
-                    "guid": "d9dbb74d-a339-415e-bbe8-6625b81e829b",
-                    "id": "1",
-                    "product_name": "QuickWhip 20pk",
-                    "product_description": "A 20 pack of cream chargers.",
+                    "guid": "1edb87e7-59a6-45e0-bc7a-f27fdc9d740e",
+                    "id": "16",
+                    "product_name": "Supreme Whip 10pk",
+                    "product_description": "10 Supreme Whip chargers",
+                    "product_image": "supremeWhip10.webp",
                     "region": [
                         "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "chargers"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "af94e649-aecd-4723-9a00-e08dd3831fbd",
+                    "id": "17",
+                    "product_name": "Apple Instawhip 10pk",
+                    "product_description": "10 Apple Instawhip chargers",
+                    "product_image": "appleInstawhip10.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "chargers",
+                        "flavoured"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "867065e6-879e-4535-8253-fcbf8f79e493",
+                    "id": "18",
+                    "product_name": "Grape Instawhip 10pk",
+                    "product_description": "10 Grape Instawhip chargers",
+                    "product_image": "grapeInstawhip10.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "chargers",
+                        "flavoured"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "8f8fb6c6-7ab7-412e-9fcf-9eeeafbc478b",
+                    "id": "19",
+                    "product_name": "Blueberry SSES 10pk",
+                    "product_description": "10 SSES blueberry flavoured chargers",
+                    "product_image": "blueberrySSES10.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "chargers",
+                        "flavoured"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "484e128e-cac8-4acf-ae90-1ea95254e762",
+                    "id": "20",
+                    "product_name": "Mango SSES 10pk",
+                    "product_description": "10 SSES mango flavoured chargers",
+                    "product_image": "mangoSSES10.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "chargers",
+                        "flavoured"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "e0650e19-43c9-4640-b189-2c8e3fb07f6e",
+                    "id": "21",
+                    "product_name": "Strawberry SSES 10pk",
+                    "product_description": "10 SSES strawberry flavoured chargers",
+                    "product_image": "strawberrySSES10.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "chargers",
+                        "flavoured"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "d809ee90-7230-46f8-85cf-28e0326aee7f",
+                    "id": "22",
+                    "product_name": "Strawberry Freshwhip 10pk",
+                    "product_description": "10 Freshwhip strawberry flavoured chargers",
+                    "product_image": "strawberryFresh10.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "chargers",
+                        "flavoured"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "9b3e63c3-af1b-46b7-98a5-9cf2f486e952",
+                    "id": "23",
+                    "product_name": "Mint 10pk",
+                    "product_description": "10 mint flavoured chargers",
+                    "product_image": "mint10.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "chargers",
+                        "flavoured"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "9f80dfc3-b645-436f-bd5a-837f6898c46c",
+                    "id": "24",
+                    "product_name": "Banana 10pk",
+                    "product_description": "10 banana flavoured chargers",
+                    "product_image": "banana10.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "chargers",
+                        "flavoured"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "b4ded5f8-540e-48fb-ae0c-3a56d0c01189",
+                    "id": "25",
+                    "product_name": "Blueberry 10pk",
+                    "product_description": "10 blueberry flavoured chargers",
+                    "product_image": "blueberry10.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "chargers",
+                        "flavoured"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "d7d2b9c6-556d-4d16-814a-38c8bee6a9f7",
+                    "id": "26",
+                    "product_name": "Cherry 10pk",
+                    "product_description": "10 cherry flavoured chargers",
+                    "product_image": "cherry10.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "chargers",
+                        "flavoured"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "006a3a56-4bbf-44bc-b034-bbc45694f493",
+                    "id": "27",
+                    "product_name": "Coconut 10pk",
+                    "product_description": "10 coconut flavoured chargers",
+                    "product_image": "coconut10.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "chargers",
+                        "flavoured"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "2cf512c7-e38c-4e66-825d-1e9070fc4f4c",
+                    "id": "28",
+                    "product_name": "Mango 10pk",
+                    "product_description": "10 mango flavoured chargers",
+                    "product_image": "mango10.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "chargers",
+                        "flavoured"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "78b8cba5-c8cc-47f6-92f4-5c50c5a30c75",
+                    "id": "29",
+                    "product_name": "Peach 10pk",
+                    "product_description": "10 peach flavoured chargers",
+                    "product_image": "peach10.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "chargers",
+                        "flavoured"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "00208484-64f8-499b-9209-77957203e0e4",
+                    "id": "30",
+                    "product_name": "Pineapple 10pk",
+                    "product_description": "10 pineapple flavoured chargers",
+                    "product_image": "pineapple10.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "chargers",
+                        "flavoured"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "0432a592-5ef8-42c3-b273-2eb77503b859",
+                    "id": "31",
+                    "product_name": "Watermelon 10pk",
+                    "product_description": "10 watermelon flavoured chargers",
+                    "product_image": "watermelon10.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "chargers",
+                        "flavoured"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "7633fa50-8065-49f3-990a-e67d03eac67a",
+                    "id": "32",
+                    "product_name": "Miami Magic Tank",
+                    "product_description": "580g Miami Magic Tank (Approx 72 Chargers)",
+                    "product_image": "miamiMagicTank.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "tanks"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "6d9e2a45-4f6b-429f-bd43-b93f669c0159",
+                    "id": "33",
+                    "product_name": "Rainbow Cotton Candy Tank",
+                    "product_description": "580g Rainbow Cotton Candy Infusion Tank (Approx 72 Chargers)",
+                    "product_image": "rainbowCandyTank.webp",
+                    "region": [
+                        "sydney",
+                        "canberra"
+                    ],
+                    "category": [
+                        "flavoured",
+                        "tanks"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "223800af-9754-407f-898e-76141e9bbc92",
+                    "id": "34",
+                    "product_name": "Watermelon Lemon Tank",
+                    "product_description": "580g Watermelon Lemon Infusion Tank (Approx 72 Chargers)",
+                    "product_image": "watermelonLemonTank.webp",
+                    "region": [
+                        "sydney",
+                        "canberra"
+                    ],
+                    "category": [
+                        "flavoured",
+                        "tanks"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "be6a3d34-d216-4835-a3ef-d50eb4bb0a91",
+                    "id": "35",
+                    "product_name": "Blueberry Mango Tank",
+                    "product_description": "580g Blueberry Mango Infusion Tank (Approx 72 Chargers)",
+                    "product_image": "blueberryMangoTank.webp",
+                    "region": [
+                        "sydney",
+                        "canberra"
+                    ],
+                    "category": [
+                        "flavoured",
+                        "tanks"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "072371e4-8e57-4d7e-a84f-7bdea3130142",
+                    "id": "36",
+                    "product_name": "Strawberry Tank",
+                    "product_description": "580g Strawberry Infusion Tank (Approx 72 Chargers)",
+                    "product_image": "strawberryTank.webp",
+                    "region": [
+                        "sydney",
+                        "canberra"
+                    ],
+                    "category": [
+                        "flavoured",
+                        "tanks"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "00904596-0f4b-47b0-bf58-c1b754f6373d",
+                    "id": "37",
+                    "product_name": "Mix'n'Match Tank",
+                    "product_description": "Mix match any 6x 580g tanks from our store",
+                    "product_image": "mixMatchTank.webp",
+                    "region": [
+                        "sydney"
+                    ],
+                    "category": [
+                        "bundles",
+                        "flavoured",
+                        "tanks"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "a31ea43d-6b44-4b95-8add-9fa1b1326cf2",
+                    "id": "38",
+                    "product_name": "SwagMax Tank",
+                    "product_description": "1.45kg SWAGMAX Tank (Approx 180 Chargers)",
+                    "product_image": "swagMaxTank.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "tanks"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "cfc450e1-9ba9-4c1c-918b-d469b99e72cc",
+                    "id": "39",
+                    "product_name": "Miami King Tank",
+                    "product_description": "Miami Magic Infusions King Sized Tank (Approx. 275 chargers)",
+                    "product_image": "miamiKingTank.webp",
+                    "region": [
+                        "sydney"
+                    ],
+                    "category": [
+                        "tanks"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "632cec3a-cd11-4d72-928d-00bcfb225d73",
+                    "id": "40",
+                    "product_name": "Double Miami King Tanks",
+                    "product_description": "2 King sized Miami Tanks ($90ea)",
+                    "product_image": "doubleMiamiKingTank.webp",
+                    "region": [
+                        "sydney"
+                    ],
+                    "category": [
+                        "bundles",
+                        "tanks"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "fdf9ced9-d281-47bd-ba8d-0f3265c0edc7",
+                    "id": "41",
+                    "product_name": "Quad Miami King Tanks",
+                    "product_description": "4 King sized Miami Tanks ($85ea)",
+                    "product_image": "quadMiamiKingTank.webp",
+                    "region": [
+                        "sydney"
+                    ],
+                    "category": [
+                        "bundles",
+                        "tanks"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "073ad9d5-d053-4bae-aa9e-11bb04250ab6",
+                    "id": "42",
+                    "product_name": "Dozen Miami King Tanks",
+                    "product_description": "12 King sized Miami Tanks ($85ea)",
+                    "product_image": "dozenMiamiKingTank.webp",
+                    "region": [
+                        "sydney"
+                    ],
+                    "category": [
+                        "bundles",
+                        "tanks"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "81e373ce-8d29-435a-b458-f5d0b38419d6",
+                    "id": "43",
+                    "product_name": "Lux King Tank",
+                    "product_description": "2.2kg Lux King Tank (Approx 275 Chargers)",
+                    "product_image": "luxKingTank.webp",
+                    "region": [
+                        "newcastle",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "tanks"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "98fe8ca4-4f64-4869-bf2c-e8cc25bccb2b",
+                    "id": "44",
+                    "product_name": "4 Hole Hand Cracker",
+                    "product_description": "Dispose of unwanted chargers safely",
+                    "product_image": "4HoleHandCracker.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "accessories"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "b881e4f6-611d-4106-98cd-f54a74e53cb6",
+                    "id": "45",
+                    "product_name": "500ml Whipper",
+                    "product_description": "Comes with 2 month warranty",
+                    "product_image": "500Whipper.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "accessories"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "efb3f12a-9bb1-44a8-a3cd-2b520184832d",
+                    "id": "46",
+                    "product_name": "Whipper Head Replacement",
+                    "product_description": "New replacement whipper head. Does not include nozzle attachments shown in product photo",
+                    "product_image": "whipperHeadReplacement.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "accessories"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "6956ef38-2ea1-4c22-80fe-0e31a4b18759",
+                    "id": "47",
+                    "product_name": "Fiend Mug",
+                    "product_description": "",
+                    "product_image": "fiendMug.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "accessories"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "809c50e6-dd85-4439-8412-dc80b79c4af9",
+                    "id": "48",
+                    "product_name": "Fiend Apron",
+                    "product_description": "",
+                    "product_image": "fiendApron.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "accessories"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "c58cb5ac-8ad6-4269-8d97-38737263adde",
+                    "id": "49",
+                    "product_name": "Gift Certificate",
+                    "product_description": "Whip up the perfect gift",
+                    "product_image": "giftCertificate.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "accessories"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "ca1cbc91-a86b-4743-82b0-f81700ac1352",
+                    "id": "50",
+                    "product_name": "Fiend Socks",
+                    "product_description": "",
+                    "product_image": "fiendSocks.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "accessories"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "3f30d7b6-ca5b-4562-9008-756c89a8890b",
+                    "id": "51",
+                    "product_name": "Bucket Hat",
+                    "product_description": "",
+                    "product_image": "fiendBucketHat.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "accessories"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "267a5b86-6759-4ef7-9a19-71fb4539ef7a",
+                    "id": "52",
+                    "product_name": "Chef Hat",
+                    "product_description": "",
+                    "product_image": "fiendChefHat.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "accessories"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "88195c09-9c29-4e19-a2b9-f37dfbfb9b2b",
+                    "id": "53",
+                    "product_name": "Bulb Holder Replacement",
+                    "product_description": "",
+                    "product_image": "bulbHolderReplacement.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "accessories"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "f36cd26b-39f5-4251-a2dd-dfb3f64bbe78",
+                    "id": "54",
+                    "product_name": "Quick Whip Crate",
+                    "product_description": "360 Quick Whip chargers",
+                    "product_image": "quickWhipCrate.webp",
+                    "region": [
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "bundles",
+                        "chargers"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "79f20919-3875-40b4-b533-7e2530329a88",
+                    "id": "55",
+                    "product_name": "Quick Whip Pro Crate",
+                    "product_description": "360 Quick Whip Pro chargers",
+                    "product_image": "quickWhipProCrate.webp",
+                    "region": [
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "bundles",
+                        "chargers"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "f952d7e3-f225-43b1-a0b7-d3b1c0d1dd17",
+                    "id": "56",
+                    "product_name": "Supreme Whip Crate",
+                    "product_description": "360 Supreme Whip chargers",
+                    "product_image": "supremeWhipCrate.webp",
+                    "region": [
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "bundles",
+                        "chargers"
+                    ],
+                    "branch": [
+                        "fiend",
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "e0f875ba-c71e-49a8-815a-64552d423630",
+                    "id": "57",
+                    "product_name": "1000 Supremes",
+                    "product_description": "1000 Supreme Whip chargers",
+                    "product_image": "1000Supremes.webp",
+                    "region": [
+                        "newcastle"
+                    ],
+                    "category": [
+                        "bundles",
+                        "chargers"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "56314f1a-345c-472e-be20-78328eb0f4a6",
+                    "id": "58",
+                    "product_name": "Bulk Whippers",
+                    "product_description": "12 500ml Cream Fiend Whippers. To ensure stock availability, 24 hours notice must be provided prior to desired time of delivery.",
+                    "product_image": "bulkWhippers.webp",
+                    "region": [
+                        "sydney"
+                    ],
+                    "category": [
+                        "bundles",
+                        "accessories"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
+                },
+                {
+                    "guid": "0f75a93a-adef-4b94-9a1a-816881aea687",
+                    "id": "59",
+                    "product_name": "Bulk Supremes",
+                    "product_description": "1200 Supremewhip Chargers. To ensure stock availability, 24 hours notice and a $50.00 deposit must be provided prior to desired time of delivery",
+                    "product_image": "bulkSupremes.webp",
+                    "region": [
                         "sydney"
                     ],
                     "category": [
@@ -149,61 +1254,248 @@
                     "branch": [
                         "fiend",
                         "cosmic"
-                    ],
-                    "product_image": "/productImages/fiend/chargers1.webp"
+                    ]
                 },
                 {
-                    "guid": "7499edc8-2d99-48c6-90e2-bac7bb656a06",
-                    "id": "2",
-                    "product_name": "QuickWhip 30pk",
-                    "product_description": "A 30 pack of cream chargers.",
+                    "guid": "6ae5c13d-c4aa-4ecc-88f7-3c1b1bf52b58",
+                    "id": "60",
+                    "product_name": "Bulk Mixed",
+                    "product_description": "3600 Mixed Chargers. Mix and match 3600 flavored or unflavored chargers from our store. To ensure stock availability, 24 hours notice and a $50.00 deposit must be provided prior to desired time of delivery",
+                    "product_image": "bulkMixed.webp",
                     "region": [
-                        "newcastle",
-                        "canberra"
+                        "sydney"
                     ],
                     "category": [
+                        "bundles",
                         "chargers"
                     ],
                     "branch": [
                         "fiend"
-                    ],
-                    "product_image": "/productImages/fiend/chargers1.webp"
+                    ]
                 },
                 {
-                    "guid": "85518ce9-3e97-4561-ae26-dcfa669f346f",
-                    "id": "3",
-                    "product_name": "QuickWhip 40pk",
-                    "product_description": "A 40 pack of cream chargers.",
+                    "guid": "a9816c07-8299-436b-ad4d-30a8a1e69295",
+                    "id": "61",
+                    "product_name": "Solar Strawberry",
+                    "product_description": "150 strawberry flavoured chargers",
+                    "product_image": "solarStrawberry.webp",
                     "region": [
-                        "newcastle"
+                        "newcastle",
+                        "canberra",
+                        "portStephens"
                     ],
                     "category": [
-                        "chargers",
+                        "bundles",
                         "flavoured"
                     ],
                     "branch": [
-                        "fiend",
                         "cosmic"
-                    ],
-                    "product_image": "/productImages/fiend/chargers1.webp"
+                    ]
                 },
                 {
-                    "guid": "4da5b8cb-17bd-474c-8786-725df68a7a7f",
-                    "id": "4",
-                    "product_name": "QuickWhip 50pk",
-                    "product_description": "A 50 pack of cream chargers.",
+                    "guid": "448c2454-abb7-41ad-89c3-e23be18b29e9",
+                    "id": "62",
+                    "product_name": "Blackhole Blueberry",
+                    "product_description": "150 blueberry flavoured chargers",
+                    "product_image": "blackholeBlueberry.webp",
                     "region": [
-                        "newcastle"
+                        "newcastle",
+                        "canberra",
+                        "portStephens"
                     ],
                     "category": [
-                        "chargers",
+                        "bundles",
+                        "flavoured"
+                    ],
+                    "branch": [
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "e3fa9350-889d-498d-aa98-69755427eef9",
+                    "id": "63",
+                    "product_name": "Meteorite Mint",
+                    "product_description": "150 mint flavoured chargers",
+                    "product_image": "meteoriteMint.webp",
+                    "region": [
+                        "newcastle",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "bundles",
+                        "flavoured"
+                    ],
+                    "branch": [
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "1ee075eb-4c75-4d38-82cd-8bdeae319c91",
+                    "id": "64",
+                    "product_name": "Space Cadet",
+                    "product_description": "50 Quick Whip chargers",
+                    "product_image": "spaceCadet.webp",
+                    "region": [
+                        "newcastle",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "bundles",
+                        "chargers"
+                    ],
+                    "branch": [
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "a346d4f0-2999-4a28-9961-cadc321297f2",
+                    "id": "65",
+                    "product_name": "Cosmonaut",
+                    "product_description": "120 chargers",
+                    "product_image": "cosmonaut.webp",
+                    "region": [
+                        "newcastle",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "bundles",
+                        "chargers"
+                    ],
+                    "branch": [
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "224b54f5-87fc-4b53-a976-cc8e2522ed55",
+                    "id": "66",
+                    "product_name": "Moon Hopper",
+                    "product_description": "70 chargers",
+                    "product_image": "moonHopper.webp",
+                    "region": [
+                        "newcastle",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "bundles",
+                        "chargers"
+                    ],
+                    "branch": [
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "9e781c3e-8ea0-47e6-bc47-12bbf23c6f42",
+                    "id": "67",
+                    "product_name": "Lightyear",
+                    "product_description": "200 Supreme Whip chargers",
+                    "product_image": "lightyear.webp",
+                    "region": [
+                        "newcastle",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "bundles",
+                        "chargers"
+                    ],
+                    "branch": [
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "870dfeb6-5e4c-424c-98e0-23fe7c2b8cb6",
+                    "id": "68",
+                    "product_name": "200 Mixed",
+                    "product_description": "Random Flavour Assortment , Repackaged Loose Chargers, Sold As Is.",
+                    "product_image": "200Mixed.webp",
+                    "region": [
+                        "newcastle",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "bundles",
+                        "flavoured"
+                    ],
+                    "branch": [
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "00afeb7a-55a1-40a3-9420-d86ca89b96e1",
+                    "id": "69",
+                    "product_name": "Cosmic Shirt | White",
+                    "product_description": "",
+                    "product_image": "cosmicShirtWhite.webp",
+                    "region": [
+                        "newcastle",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
                         "accessories"
                     ],
                     "branch": [
-                        "fiend",
                         "cosmic"
+                    ]
+                },
+                {
+                    "guid": "f2b7b98a-9e7f-4ea4-9a1c-e0ddc6fc3807",
+                    "id": "70",
+                    "product_name": "Cosmic Shirt | Black",
+                    "product_description": "",
+                    "product_image": "cosmicShirtBlack.webp",
+                    "region": [
+                        "newcastle",
+                        "canberra",
+                        "portStephens"
                     ],
-                    "product_image": "/productImages/fiend/chargers1.webp"
+                    "category": [
+                        "accessories"
+                    ],
+                    "branch": [
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "059d9667-e36e-464c-a4ff-ead73ee7197d",
+                    "id": "71",
+                    "product_name": "Cosmic Whipper",
+                    "product_description": "500ml. Comes with 2 month warranty.",
+                    "product_image": "cosmicWhipper.webp",
+                    "region": [
+                        "newcastle",
+                        "canberra",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "accessories"
+                    ],
+                    "branch": [
+                        "cosmic"
+                    ]
+                },
+                {
+                    "guid": "ebc1ad64-f6bc-486a-a289-a3afba127c39",
+                    "id": "72",
+                    "product_name": "Fiend Whipper",
+                    "product_description": "500ml. Comes with 2 month warranty.",
+                    "product_image": "fiendWhipper.webp",
+                    "region": [
+                        "newcastle",
+                        "sydney",
+                        "portStephens"
+                    ],
+                    "category": [
+                        "accessories"
+                    ],
+                    "branch": [
+                        "fiend"
+                    ]
                 }
             ],
             "hidden": false,

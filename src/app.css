@@ -166,6 +166,11 @@ a.downloadButton {
 	padding: 0.5em 2em;
 }
 
+a.downloadButton:hover {
+	background-color: var(--CC-light);
+	color: var(--CC-dark);
+}
+
 .shine {
 	overflow: hidden;
 	position: relative;

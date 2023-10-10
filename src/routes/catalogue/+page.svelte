@@ -5,7 +5,7 @@
 
     
     import products from '$lib/products.json';
-    import { locations } from '$lib/variables.js';
+    import { locations, androidAppLink, iosAppLink  } from '$lib/variables.js';
 	import { onMount } from 'svelte';
 
     let details = true;
@@ -136,18 +136,19 @@
 </style>
 
 <div class="catalogueDetailsBar">
-    <a class="catalogueCategory" href="/catalogue/chargers">Chargers</a>
-    <a class="catalogueCategory" href="/catalogue/flavoured">Flavoured</a>
     <a class="catalogueCategory" href="/catalogue/bundles">Bundles</a>
+    <a class="catalogueCategory" href="/catalogue/chargers">Chargers</a>
+    <a class="catalogueCategory" href="/catalogue/tanks">Tanks</a>
+    <a class="catalogueCategory" href="/catalogue/flavoured">Flavoured</a>
     <a class="catalogueCategory" href="/catalogue/accessories">Accessories</a>
 </div>
 <div class="catalogueGrid">
     <div class="heroColumn">
         <h2>See what we have on offer!</h2>
-        <h3>Or browse our catalogue through our app!</h3>
+        <h3>If you'd like to make a purchase, download our app!</h3>
         <div class="buttons">
-            <a href="#" class="darkButton">Android</a>
-            <a href="#" class="darkButton">iOS</a>
+            <a href="{androidAppLink}" class="darkButton">Android</a>
+            <a href="{iosAppLink}" class="darkButton">iOS</a>
         </div>
     </div>
     <div class="cardsColumn">

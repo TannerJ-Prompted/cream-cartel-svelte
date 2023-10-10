@@ -3,7 +3,7 @@
         export let data;
         import { page } from '$app/stores';
         import products from '$lib/products.json';
-        import { locations } from '$lib/variables.js';
+        import { locations, androidAppLink, iosAppLink } from '$lib/variables.js';
 	    import { onMount } from 'svelte';
 
         let pageId = $page.params.category;
@@ -144,19 +144,36 @@
         color: var(--CC-light);
     }
 
+    .appDownloadDialogue {
+        position: sticky;
+        bottom: 4em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--CC-dark);
+        padding: 2em;
+        gap: 2em;
+    }
+    
+    .appDownloadDialogue h3{
+        margin: 0em;
+    }
+
 </style>
 
 <div class="catalogueDetailsBar">
-    <a class="catalogueCategory shadow" href="/catalogue/chargers" class:active={$page.params.category==="chargers"}>Chargers</a>
-    <a class="catalogueCategory shadow" href="/catalogue/flavoured" class:active={$page.params.category==="flavoured"}>Flavoured</a>
     <a class="catalogueCategory shadow" href="/catalogue/bundles" class:active={$page.params.category==="bundles"}>Bundles</a>
+    <a class="catalogueCategory shadow" href="/catalogue/chargers" class:active={$page.params.category==="chargers"}>Chargers</a>
+    <a class="catalogueCategory shadow" href="/catalogue/tanks" class:active={$page.params.category==="tanks"}>Tanks</a>
+    <a class="catalogueCategory shadow" href="/catalogue/flavoured" class:active={$page.params.category==="flavoured"}>Flavoured</a>
     <a class="catalogueCategory shadow" href="/catalogue/accessories" class:active={$page.params.category==="accessories"}>Accessories</a>
 </div>
 <div class="productGrid">
     {#each products.sheets[0].lines as item}
         {#if item.category.includes($page.params.category)}
             <div class="card shadow">
-                <img class="productImage" src={item.product_image} alt="{item.product_name}">
+                <img class="productImage" src={`/productImages/${item.product_image}`} alt="{item.product_name}">
                 <h3>{item.product_name}</h3>
                 <p>{item.product_description}</p>
                 <ul>
@@ -176,4 +193,11 @@
             </div>
         {/if}
     {/each}
+</div>
+<div class="appDownloadDialogue">
+    <h3>If you'd like to make a purchase, download our app!</h3>
+    <div class="buttons">
+        <a href="{androidAppLink}" class="downloadButton">Android</a>
+        <a href="{iosAppLink}" class="downloadButton">iOS</a>
+    </div>
 </div>
