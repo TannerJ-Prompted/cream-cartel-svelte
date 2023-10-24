@@ -6,6 +6,297 @@
 
 <style>
 
+:root {
+	--CC-dark: #1a1a1a;
+	--CC-mid: #686868;
+	--CC-light: #cccccc;
+	--CC-white: #ffffff;
+	--CC-gold: #ecb653;
+	--fiend-red: #e12d2d;
+	--cosmic-green: #63d471;
+}
+
+html {
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	background-color: var(--CC-mid);
+	background-image: url('/chargerPattern.png');
+	background-position: center top;
+	background-repeat: repeat;
+	background-size: 500px;
+}
+
+body {
+	margin: 0em;
+}
+
+* {
+	box-sizing: border-box;
+	transition: all 0.2s ease-in-out;
+}
+
+div {
+	font-size: 14px;
+	padding: 0.2em;
+	border-radius: 0.8em;
+	color: black;
+}
+
+a {
+	border-radius: 0.8em;
+	padding: 0.8em;
+	color: var(--CC-white);
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:hover {
+	color: var(--CC-gold);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	color: var(--CC-white);
+	letter-spacing: 0.03em;
+}
+
+h2 {
+	font-size: 4em;
+	text-transform: uppercase;
+	line-height: 1em;
+}
+
+h3 {
+	color: var(--CC-light);
+	font-size: 2em;
+	text-transform: uppercase;
+	line-height: 1em;
+}
+
+p {
+	font-weight: 400;
+}
+
+li {
+	color: var(--CC-light);
+}
+
+.gold {
+	color: var(--CC-gold);
+}
+
+.pirata {
+	font-family: 'Pirata One', 'Poppins', sans-serif;
+	font-size: 2em;
+	font-style: italic;
+}
+
+.header,
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--CC-dark);
+	padding: 0.2em 2em;
+}
+
+.header {
+	position: sticky;
+	width: calc(100% - 2em);
+	top: 1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header a {
+	padding: 0.3em;
+}
+
+.footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0em;
+	border-radius: 0em;
+}
+
+.footer a,
+.footer p {
+	padding: 0em;
+	margin: 0em;
+}
+
+.navBar {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 2em;
+}
+
+.contentContainer {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	gap: 2em;
+}
+
+.content {
+	width: 100%;
+	max-width: 1140px;
+}
+
+.darkButton {
+	background-color: var(--CC-dark);
+	color: var(--CC-light);
+	min-width: 10em;
+	text-align: center;
+	font-weight: 600;
+	font-size: 1.3em;
+}
+
+.darkButton:hover {
+	background-color: var(--CC-gold);
+	color: var(--CC-dark);
+}
+
+a.downloadButton {
+	background-color: var(--CC-gold);
+	color: var(--CC-dark);
+	min-width: 10em;
+	text-align: center;
+	font-weight: 600;
+	font-size: 1.3em;
+	padding: 0.5em 2em;
+}
+
+a.downloadButton:hover {
+	background-color: var(--CC-light);
+	color: var(--CC-dark);
+}
+
+.shine {
+	overflow: hidden;
+	position: relative;
+}
+
+.shine::before {
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 100%;
+	background-image: linear-gradient(
+		120deg,
+		rgba(255, 255, 255, 0) 30%,
+		rgb(255, 255, 255),
+		rgba(255, 255, 255, 0) 70%
+	);
+	top: 0;
+	left: -100px;
+	animation: shine 1s 3 linear;
+	animation-delay: 2s;
+}
+
+@keyframes shine {
+	0% {
+		left: -100px;
+	}
+	20% {
+		left: 100%;
+	}
+	100% {
+		left: 100%;
+	}
+}
+
+.shadow {
+	box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+#menuButton {
+	display: none;
+	background-color: var(--CC-light);
+}
+
+@media only screen and (max-width: 850px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.navBar {
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	.contentContainer {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.content {
+		width: 100%;
+		max-width: 100%;
+	}
+	.darkButton {
+		font-size: 1em;
+	}
+	.darkButton:hover {
+		font-size: 1em;
+	}
+	a.downloadButton {
+		font-size: 1em;
+		padding: 0.5em 1em;
+	}
+	a.downloadButton:hover {
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	.navBar a {
+		display: none;
+	}
+	.navBar .pirata {
+		display: block;
+	}
+
+	#menuButton {
+		display: inline;
+	}
+
+	.footer {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.navBar a {
+		display: none;
+	}
+	.navBar .pirata {
+		display: block;
+	}
+
+	.downloadButton {
+		display: none;
+	}
+
+	#menuButton {
+		display: inline;
+	}
+
+	.footer {
+		display: none;
+	}
+}
+
+
 .offScreenMobileMenu {
     position: fixed;
     top: 0;
