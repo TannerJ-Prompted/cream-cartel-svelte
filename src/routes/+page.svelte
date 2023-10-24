@@ -75,7 +75,7 @@
         }
 
         .playingCard {
-            height: 15em;
+            height: 14em;
         }
 
     }
