@@ -4,7 +4,7 @@
     let mobileMenuActive = false;
 </script>
 
-<style>
+<style global>
 
 :root {
 	--CC-dark: #1a1a1a;
