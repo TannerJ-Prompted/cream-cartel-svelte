@@ -53,6 +53,60 @@
         transform: rotate(-5deg);
     }
 
+    @media only screen and (max-width: 850px) {
+        .homeGrid {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            margin-top: 4em;
+            margin-bottom: 10em;
+        }
+
+        .heroColumn {
+            padding-top: 2em;
+            order: 1;
+        }
+
+        .cardsColumn {
+            order: 2;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .playingCard {
+            height: 15em;
+        }
+
+    }
+
+    @media only screen and (max-width: 650px) {
+        .homeGrid {
+            grid-template-columns: 1fr;
+            grid-template-rows: 3fr 2fr;
+            margin-top: 4em;
+            margin-bottom: 2em;
+        }
+
+        .heroColumn {
+            padding-top: 2em;
+            order: 1;
+        }
+
+        .cardsColumn {
+            order: 2;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 2em;
+        }
+
+        .playingCard {
+            height: 15em;
+        }
+    }
+
 </style>
 
 <div class="homeGrid">

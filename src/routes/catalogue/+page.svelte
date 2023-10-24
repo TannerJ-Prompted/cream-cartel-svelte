@@ -133,6 +133,22 @@
         color: var(--CC-light);
     }
 
+    @media only screen and (max-width: 800px) {
+        .catalogueGrid {
+            grid-template-columns: 1fr;
+        }
+
+        .catalogueDetailsBar {
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 0.5em;
+        }
+
+        .catalogueCategory {
+            font-size: 1em;
+        }
+    }
+
 </style>
 
 <div class="catalogueDetailsBar">

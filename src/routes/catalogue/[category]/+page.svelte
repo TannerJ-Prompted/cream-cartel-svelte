@@ -160,6 +160,34 @@
         margin: 0em;
     }
 
+    @media only screen and (max-width: 1050px) {
+        .productGrid {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+        .productGrid {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .catalogueDetailsBar {
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 0.5em;
+        }
+
+        .catalogueCategory {
+            font-size: 1em;
+        }
+    }
+
+    @media only screen and (max-width: 550px) {
+        .productGrid {
+            grid-template-columns: 1fr;
+        }
+    }
+
 </style>
 
 <div class="catalogueDetailsBar">
