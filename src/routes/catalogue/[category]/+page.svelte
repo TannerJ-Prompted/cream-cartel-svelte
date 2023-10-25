@@ -161,14 +161,36 @@
     }
 
     @media only screen and (max-width: 1050px) {
+
         .productGrid {
             grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .appDownloadDialogue h3 {
+            font-size: 1.4em;
+            text-align: center;
+        }
+
+        .appDownloadDialogue {
+            flex-direction: column;
+            gap: 0.5em;
+            padding: 1em;
+        }
+
+        .appDownloadDialogue .downloadButton {
+            display: inline;
         }
     }
 
     @media only screen and (max-width: 800px) {
         .productGrid {
             grid-template-columns: 1fr 1fr;
+            padding-top: 4em;
+        }
+
+        .appDownloadDialogue {
+            padding: 1em;
+            bottom: 4em;
         }
 
         .catalogueDetailsBar {
@@ -182,9 +204,26 @@
         }
     }
 
+    @media only screen and (max-width: 720px) {
+        .appDownloadDialogue {
+           bottom: 1em;
+        }
+
+    }
+
     @media only screen and (max-width: 550px) {
         .productGrid {
             grid-template-columns: 1fr;
+        }
+        .card {
+            gap: 1em;
+            padding: 1rem;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .card img {
+            width: 50%;
         }
     }
 

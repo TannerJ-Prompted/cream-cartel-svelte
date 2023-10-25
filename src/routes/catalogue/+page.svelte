@@ -136,6 +136,7 @@
     @media only screen and (max-width: 800px) {
         .catalogueGrid {
             grid-template-columns: 1fr;
+            margin-top: 4em;
         }
 
         .catalogueDetailsBar {

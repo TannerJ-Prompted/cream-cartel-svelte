@@ -19,17 +19,18 @@
     z-index: 100;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 2em;
+    gap: 0em;
     padding: 2em;
+    padding-top: 4em;
     transform: translateX(-100%);
     transition: transform 0.3s ease-in-out;
 }
 
 
 .offScreenMobileMenu a {
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: 800;
     color: var(--CC-dark);
     text-decoration: none;
@@ -67,7 +68,7 @@
 }
 
 .offScreenMobileMenu .footerLinks a {
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: bold;
     color: var(--CC-light);
     text-decoration: none;

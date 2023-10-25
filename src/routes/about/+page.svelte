@@ -40,6 +40,36 @@
         text-transform: uppercase;
     }
 
+    @media only screen and (max-width:800px){
+        .aboutGrid {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto;
+            gap: 3em;
+            padding: 1em;
+            padding-top: 3em;
+            padding-bottom: 10em;
+        }
+
+        .lastSupperImage {
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .aboutCopy {
+            grid-column: 1 / 2;
+            grid-row: 2 / 3;
+        }
+
+        .tradingHours {
+            grid-column: 1 / 2;
+            grid-row: 3 / 4;
+        }
+    }
+
 </style>
 
 <div class="aboutGrid">
