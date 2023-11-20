@@ -77,7 +77,7 @@
         <div class="aboutCopy">
             <h1>About the Cream Cartel</h1>
             <h2>We deliver all along the east coast of Australia!</h2>
-            <p>Welcome to The Cream Cartel, your trusted partner for all your kitchen supply needs, specializing in after-hours delivery of premium baking essentials and delectable whipped cream. We are more than just a delivery service; we are your dedicated allies in the pursuit of culinary perfection.</p>
+            <p>Welcome to The Cream Cartel, your trusted partner for all your kitchen supply needs, specializing in all-hours delivery of premium baking essentials and delectable whipped cream. We are more than just a delivery service; we are your dedicated allies in the pursuit of culinary perfection.</p>
             <h3>Our Passion for Baking and Cream</h3>
             <p>At The Cream Cartel, our love for baking runs deep, and we understand the importance of having the right ingredients at your fingertips, especially when inspiration strikes late at night. We are committed to making your baking dreams come true by providing a convenient and reliable source for top-quality kitchen supplies, any time you need them.</p>
             <h3>Why Choose The Cream Cartel?</h3>
